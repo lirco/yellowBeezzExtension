@@ -1,12 +1,22 @@
 {
   "manifest_version": 2,
-  "name": "genericExtension",
-  "description": "Awesome Chrome Extension",
-  "version": "0.0.1",
+  "name": "YellowBeezz",
+  "description": "All the viral beezz you can get",
+  "version": "0.0.11",
   "permissions": [
     "tabs",
     "http://*/",
     "https://*/"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "http://*/",
+        "https://*/",
+        "<all_urls>"
+      ],
+      "js": ["content.script.js"]
+    }
   ],
   "background": {
     "scripts": ["lib/angular/angular.min.js"]
@@ -14,5 +24,8 @@
   "content_security_policy": "script-src 'self'; object-src 'self'",
   "chrome_url_overrides" : {
     "newtab": "newtab.html"
+  },
+  "browser_action": {
+    "default_icon": "icon.png"
   }
 }

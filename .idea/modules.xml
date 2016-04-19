@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/genericExtension.iml" filepath="$PROJECT_DIR$/.idea/genericExtension.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/yellowBeezzExtension.iml" filepath="$PROJECT_DIR$/.idea/yellowBeezzExtension.iml" />
     </modules>
   </component>
 </project>

@@ -12,7 +12,7 @@
 
   }
 
-  angular.module('genericExtension')
+  angular.module('yellowBeezzExtension')
     .controller('mainController', [mainController])
 
 }());

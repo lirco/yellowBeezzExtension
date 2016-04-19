@@ -22,7 +22,7 @@
     }
   }
 
-  angular.module('genericExtension')
+  angular.module('yellowBeezzExtension')
     .directive('autofocus', ['$timeout', autofocus])
 
 }());

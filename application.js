@@ -1,2 +1,2 @@
 
-angular.module('genericExtension', []);
+angular.module('yellowBeezzExtension', []);
